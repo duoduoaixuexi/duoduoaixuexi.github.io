@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的静态网站</title>
+    <style>
+        /* 简单样式，让页面更美观 */
+        body { max-width: 1200px; margin: 0 auto; padding: 20px; font-family: Arial; }
+        .content { margin-top: 20px; }
+        img { max-width: 100%; height: auto; }
+        video { max-width: 800px; }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的网站</h1>
+    <div class="content">
+        <!-- 文字内容 -->
+        <p>这是我要展示的静态文字内容</p>
+        
+        <!-- 图片 -->
+        <h3>展示图片</h3>
+        <img src="images/photo.jpg" alt="我的图片"> <!-- 替换成你的图片路径 -->
+        
+        <!-- 视频（推荐嵌入方式，避免文件过大） -->
+        <h3>展示视频</h3>
+        <!-- 替换成B站/腾讯视频的嵌入链接 -->
+        <iframe src="https://player.bilibili.com/player.html?aid=123456&bvid=BV1xx411c7m8&cid=123456&page=1" 
+                scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+        </iframe>
+        
+        <!-- 本地视频（可选，文件不宜过大） -->
+        <!-- <video controls>
+            <source src="videos/movie.mp4" type="video/mp4">
+        </video> -->
+    </div>
+</body>
+</html>
