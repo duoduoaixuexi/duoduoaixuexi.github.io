@@ -28,10 +28,6 @@
                 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
         </iframe>
         
-        <!-- 本地视频（可选，文件不宜过大） -->
-        <!-- <video controls>
-            <source src="videos/movie.mp4" type="video/mp4">
-        </video> -->
     </div>
 </body>
 </html>
