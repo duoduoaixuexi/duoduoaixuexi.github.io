@@ -24,7 +24,7 @@
         <!-- 视频（推荐嵌入方式，避免文件过大） -->
         <h3>展示视频</h3>
         <!-- 替换成B站/腾讯视频的嵌入链接 -->
-        <iframe src="https://player.bilibili.com/player.html?aid=123456&bvid=BV1xx411c7m8&cid=123456&page=1" 
+        <iframe src="https://www.bilibili.com/video/BV14UUAYmExC?t=3.8" 
                 scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
         </iframe>
         
